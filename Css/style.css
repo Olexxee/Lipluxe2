@@ -1,0 +1,72 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+:root {
+    --primary-color: #E85C90;
+    --secondary-color: #18040B;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--secondary-color);
+    font-family: 'roboto';
+    justify-content: center;
+    color: #fff;
+    overflow-x: 0;
+}
+img {
+    width: 100%;
+}
+.navbar {
+    padding: 2rem;
+}
+header {
+    height: 80vh;
+    background: #ec5454;
+    opacity: 0.5;
+    margin: 3rem 0 2rem 0;
+    box-shadow: #fff 10px 5px 10px 20px;
+}
+.greeting {
+    padding: 7rem;
+    margin: 2rem;
+}
+.showcase {
+    border: 1px solid grey;
+    height: 70vh;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.carousel-item img {
+    width: auto;
+    height: 70vh;
+}
+.we-do {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    height: 90vh;
+    margin-top: 2rem;
+    padding: 2rem;
+    box-shadow: #fff 10px 5px 10px 5px;
+}
+.left-section {
+    padding: 2rem;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.right-section {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 2rem;
+}
